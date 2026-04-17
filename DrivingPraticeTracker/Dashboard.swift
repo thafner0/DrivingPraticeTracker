@@ -25,7 +25,7 @@ struct Dashboard: View {
             }
             
             Section {
-                Button("Switch User", systemImage: "person.fill.and.arrow.left.and.arrow.right.outward") {
+                Button("Switch User", image: ImageResource(name: "person.2.front.selected", bundle: .main)) {
                     // pop up menu or sheet to select new user
                 }
             }
